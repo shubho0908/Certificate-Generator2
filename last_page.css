@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#certificate {
+  height: 550px;
+}
+
+.content {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.inside {
+  /* background-color: white; */
+  border: 2px solid black;
+  padding: 25px;
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  position: relative;
+  bottom: 380px;
+  text-align: center;
+  font-size: 84px;
+  font-family: "Great Vibes", cursive;
+
+  /* left: 200px; */
+}
+
+.description {
+  position: relative;
+  text-align: center;
+  bottom: 360px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-left: 12%;
+  margin-right: 12%;
+
+  /* left: 170px; */
+}
+
+.one,
+.two,
+.three {
+  border-radius: 100%;
+  padding: 5px;
+  text-align: center;
+  width: 37px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.15) 0px 3px 7px -3px;
+}
+
+.one {
+  border: 2.5px solid rgb(33, 118, 255);
+}
+
+.two,
+.three {
+  margin-left: 12px;
+}
+
+.custom-box {
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 40%;
+}
+
+.color-box {
+  display: flex;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.btn-group {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.15) 0px 3px 7px -3px;
+}
+
+.font-box {
+  padding-left: 15px;
+}
+
+.download {
+  font-family: "Montserrat", sans-serif;position: relative;
+  bottom: 40px;
+}
+
+#onne,
+#twwo,
+#thre {
+  transition: all 0.42s;
+}
+
+#onne:hover,
+#twwo:hover,
+#thre:hover {
+  transform: scale(1.1);
+}

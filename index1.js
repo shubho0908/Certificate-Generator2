@@ -1,0 +1,1 @@
+alert("It's recommended to use the website on PC/Laptop for much better experience and result, Thank You!")
